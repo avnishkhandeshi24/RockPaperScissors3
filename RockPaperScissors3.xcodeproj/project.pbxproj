@@ -14,6 +14,11 @@
 		853C8BAD275A6AEF001D5C93 /* RockPaperScissors3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BAB275A6AEF001D5C93 /* RockPaperScissors3.xcdatamodeld */; };
 		853C8BAF275A6AF1001D5C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853C8BAE275A6AF1001D5C93 /* Assets.xcassets */; };
 		853C8BB2275A6AF1001D5C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853C8BB0275A6AF1001D5C93 /* LaunchScreen.storyboard */; };
+		853C8BBA275A6BAD001D5C93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BB9275A6BAD001D5C93 /* HomeViewController.swift */; };
+		853C8BBC275A6BC1001D5C93 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BBB275A6BC1001D5C93 /* StatisticsViewController.swift */; };
+		853C8BBE275A7337001D5C93 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BBD275A7337001D5C93 /* BattleViewController.swift */; };
+		854EF26C275E68E9007B9958 /* BattleResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854EF26B275E68E9007B9958 /* BattleResultViewController.swift */; };
+		8577407D275EACE4002CCCA0 /* AppDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577407C275EACE4002CCCA0 /* AppDataFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		853C8BAE275A6AF1001D5C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853C8BB1275A6AF1001D5C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853C8BB3275A6AF1001D5C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853C8BB9275A6BAD001D5C93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		853C8BBB275A6BC1001D5C93 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		853C8BBD275A7337001D5C93 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		854EF26B275E68E9007B9958 /* BattleResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleResultViewController.swift; sourceTree = "<group>"; };
+		8577407C275EACE4002CCCA0 /* AppDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				853C8BA4275A6AEF001D5C93 /* SceneDelegate.swift */,
 				853C8BA6275A6AEF001D5C93 /* ViewController.swift */,
 				853C8BA8275A6AEF001D5C93 /* Main.storyboard */,
+				8577407C275EACE4002CCCA0 /* AppDataFile.swift */,
+				854EF26B275E68E9007B9958 /* BattleResultViewController.swift */,
+				853C8BBD275A7337001D5C93 /* BattleViewController.swift */,
+				853C8BBB275A6BC1001D5C93 /* StatisticsViewController.swift */,
+				853C8BB9275A6BAD001D5C93 /* HomeViewController.swift */,
 				853C8BAE275A6AF1001D5C93 /* Assets.xcassets */,
 				853C8BB0275A6AF1001D5C93 /* LaunchScreen.storyboard */,
 				853C8BB3275A6AF1001D5C93 /* Info.plist */,
@@ -141,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853C8BBE275A7337001D5C93 /* BattleViewController.swift in Sources */,
+				853C8BBA275A6BAD001D5C93 /* HomeViewController.swift in Sources */,
+				8577407D275EACE4002CCCA0 /* AppDataFile.swift in Sources */,
+				854EF26C275E68E9007B9958 /* BattleResultViewController.swift in Sources */,
 				853C8BA7275A6AEF001D5C93 /* ViewController.swift in Sources */,
 				853C8BA3275A6AEF001D5C93 /* AppDelegate.swift in Sources */,
+				853C8BBC275A6BC1001D5C93 /* StatisticsViewController.swift in Sources */,
 				853C8BAD275A6AEF001D5C93 /* RockPaperScissors3.xcdatamodeld in Sources */,
 				853C8BA5275A6AEF001D5C93 /* SceneDelegate.swift in Sources */,
 			);
